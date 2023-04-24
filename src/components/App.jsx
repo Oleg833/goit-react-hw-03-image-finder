@@ -104,6 +104,8 @@ export class App extends Component {
           <Text text="Sorry. There are no images ... 😭" />
         )}
 
+        {this.state.error && <Text text={this.state.error} />}
+
         {!this.state.showLoadMoreBtn && this.state.images.length > 0 && (
           <Text text="No more images to load... 😭" />
         )}
