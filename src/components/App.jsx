@@ -21,7 +21,6 @@ export class App extends Component {
     showModal: false,
     largeImageUrl: '',
     alt: '',
-    id: null,
   };
 
   componentDidUpdate(props, prevState) {
